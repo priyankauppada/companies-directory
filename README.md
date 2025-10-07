@@ -5,6 +5,9 @@ A responsive React.js application to display a list of companies with search, mu
 <img width="1579" height="816" alt="image" src="https://github.com/user-attachments/assets/6cb69cd7-9653-448e-8543-344311956421" />
 
 
+Check out 🌐[Live Demo](https://priyankauppada.github.io/companies-directory/) 
+
+
 ## ⚡Features  
 ✅ Display companies in a card layout with details: Name, City, logo, Year, employess etc...  
 ✅ Search companies by name  
@@ -39,3 +42,6 @@ Open browser at http://localhost:5173
 - Integrate Redux Toolkit for global state management.  
 - Add pagination for large data sets.
 - Integrate real API for production-ready data.
+
+--- 
+Made with ❤️ by Priyanka
