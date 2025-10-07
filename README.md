@@ -1,18 +1,41 @@
-# React + Vite
+# 🏢Companies Directory 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React.js application to display a list of companies with search, multi-select filters, and real-time API fetching. Data is served via a Fake API for fast prototyping.  
 
-Currently, two official plugins are available:
+<img width="1579" height="816" alt="image" src="https://github.com/user-attachments/assets/6cb69cd7-9653-448e-8543-344311956421" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## ⚡Features  
+✅ Display companies in a card layout with details: Name, City, logo, Year, employess etc...  
+✅ Search companies by name  
+✅ Filter by multiple locations and Industry type  
+✅ Sort companies by Founded Year and Rating  
+✅ Responsive design for desktop and mobile  
+✅ Handles loading and error states gracefully  
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠Tech Stack  
+Frontend: React.js (Vite) + Tailwind CSS  
+State Management: useState + useEffect  
+API:  Fake API using [json-server-typicode](https://my-json-server.typicode.com/ ) (GitHub hosted db.json)  
+Tooling: Vite for bundling and fast development, Axios  
 
-Note: This will impact Vite dev & build performances.
+## 🚀Getting Started  
+### Prerequisites
+- Node.js >= 18
+- npm or yarn  
+###  Installation  
+git clone <repo-url>  
+cd companies-directory  
+npm install  
+npm run dev  
+Open browser at http://localhost:5173
 
-## Expanding the ESLint configuration
+## 🔍 Usage  
+- Use search bar to find products.  
+- Click on filters to select/deselect multiple items.  
+- Cards update in real-time based on search and filter selection.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📝 Future Improvements  
+- Integrate Redux Toolkit for global state management.  
+- Add pagination for large data sets.
+- Integrate real API for production-ready data.
